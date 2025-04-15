@@ -1,5 +1,5 @@
 package br.com.fiap.medieval_trade_api.model;
 
-public enum ChampionGroup {
+public enum ChampionRole {
     GUERREIRO, MAGO, ARQUEIRO
 }

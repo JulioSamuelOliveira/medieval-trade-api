@@ -30,7 +30,7 @@ public class Champion {
     private String name;
 
     @Enumerated(EnumType.STRING)
-    private ChampionGroup group;
+    private ChampionRole role;
 
     @Min(value = 1, message = "O level mínimo é 1")
     @Max(value = 99, message = "O level máximo é 99")
